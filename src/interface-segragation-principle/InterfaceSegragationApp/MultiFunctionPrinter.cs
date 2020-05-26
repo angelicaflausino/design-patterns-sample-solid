@@ -1,0 +1,21 @@
+namespace InterfaceSegragationApp
+{
+    //Utiliza a interface que tem responsabilidades maiores
+    public class MultiFunctionPrinter : IMachine
+    {
+        public void Fax(Document d)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void Print(Document d)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void Scan(Document d)
+        {
+            throw new System.NotImplementedException();
+        }
+    }
+}
